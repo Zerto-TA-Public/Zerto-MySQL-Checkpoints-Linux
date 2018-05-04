@@ -1,15 +1,12 @@
 #################################################################
-# ZVMEmailAlerts.ps1
+# GetVPGInfo.ps1
 # 
 # By Justin Paul, Zerto Technical Alliances Architect
 # Contact info: jp@zerto.com
 # Repo: https://www.github.com/recklessop/ZertoScripts
 #
-# This script looks for Alerts in ZVM in the "Warning" status and
-# sends an email with relevant information to the administrator.
 #
-# For a list of warnings see this PDF
-# http://s3.amazonaws.com/zertodownload_docs/Latest/Guide%20to%20Alarms,%20Alerts%20and%20Events.pdf
+# This script gets the VPG ID among other info for a given VPG Name
 #
 # Note this script is provided as-is and comes with no warranty.
 # The author takes no responsability for dataloss or corruption of any kind.
